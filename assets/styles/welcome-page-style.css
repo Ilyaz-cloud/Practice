@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+}
+.center-title{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+}
+.center{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+li{
+	font-size: 24px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.screen{
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
+.every-element{
+	padding-bottom: 4rem;
+	padding-top: 4rem;
+}
+.choice-button{
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.vertical-auto{
+	margin-top: auto;
+	margin-bottom: auto;
+	}
+.white-text{
+	color: white;
+}
+.page{
+	margin-bottom: 9rem;
+}
+p{
+	font-size: 22px;
+}
