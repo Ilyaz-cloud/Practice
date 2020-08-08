@@ -25,8 +25,8 @@ li{
   	height: 100%;
 }
 .every-element{
-	padding-bottom: 4rem;
-	padding-top: 4rem;
+	padding-bottom: 3rem;
+	padding-top: 3rem;
 }
 .choice-button{
 	margin-left: 1rem;
@@ -39,9 +39,9 @@ li{
 .white-text{
 	color: white;
 }
-.page{
-	margin-bottom: 9rem;
-}
 p{
 	font-size: 22px;
+}
+.inline{
+	display: flex;
 }
