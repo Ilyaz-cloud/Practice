@@ -3,7 +3,7 @@
 <head>
 	<title>Topvacansy | Log in</title>
 </head>
-<body>
+<body class="">
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 	</script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -39,31 +39,27 @@ $(document).ready(function(){
   });
 });
 </script>
-    <div class="page"><nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-bottom" style="height: 60px;">
-      
-  <div class="container">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </ul>
-  </div>
-  </div>
+<div class="position-fixed col-2 float-left w-100" style="height: 100%; padding-left: 0px;">
+<nav  class="navbar position-static navbar-light float-right row bg-light w-100" style=" height: 100%; padding-left: 0px;">
+  <nav class="nav nav-pills flex-column">
+    <a class="nav-link list text-secondary" href="#main" style="">Главная</a>
+    <a class="nav-link list text-secondary" href="#section1" style="">Почему Topvacansy</a>
+    <nav class="nav nav-pills flex-column">
+      <a class="nav-link ml-3 my-1 list text-secondary" href="#section1" style="">Универсальность</a>
+      <a class="nav-link ml-3 my-1 list text-secondary" href="#section2" style="">Актуальность</a>
+      <a class="nav-link ml-3 my-1 list text-secondary" href="#section3" style="">Стабильность</a>
+    </nav>
+    <a class="nav-link list text-secondary" href="#item-3" style="">Item 3</a>
+    <a class="nav-link list text-secondary" href="#" style="">Item 4</a>
+  </nav>
 </nav>
-<div class="every-element">
-  <div class="container">
+</div>
+  <div id="main" class="col-10 float-right every-element">
+  <div>
+  <div class="every-element">
+  <div>
     <div>
-      <div class="col-12">
+      <div class="col-12 every-element">
     	<h1 class="display-3">
     		TOPVACANCY.COM
     	</h1></div>
@@ -77,12 +73,21 @@ $(document).ready(function(){
          </div>
          
         <div class="col-6 row">
-          <div class="col-6 vertical-auto">
-          <button type="button" class="btn btn-outline-success btn-lg float-left">Я ищу работу</button>
+          <div class="col-6">
+            <div>
+          <button type="button" class="btn btn-outline-success btn-lg center" style="position: absolute; top:40%">Я ищу работу</button>
           </div>
-          <div class="col-6 vertical-auto">
-          <button type="button" class="btn btn-outline-info btn-lg float-right">Я ищу работников</button>
-          </div>        
+          </div>
+          <div class="col-6">
+          <div>
+          <button type="button" class="btn btn-outline-info btn-lg center" style="position: absolute; top:40%;">Я ищу работников</button> 
+          </div>
+           </div>
+          <div class="collapse center" id="collapseExample" style="padding-top: 20px;">
+  <div class="card card-body alert alert-primary">
+    Выберите свое направление
+  </div>
+</div>       
         </div>
         </div>
         </div>
@@ -91,56 +96,98 @@ $(document).ready(function(){
 
 
 <div class="every-element">
-<a href="file:///D:/Ilias/Ilyas%20Life%20Programm/PRGMING/repositories/Practice/welcome-page.html#" type="button" class="btn btn-primary btn-lg btn-block center" style="color: white;">Почему Topvacancy?</a>
+<a href="#section1" type="button" class="btn btn-primary btn-lg btn-block center" style="color: white;">Почему Topvacancy?</a>
 </div>
 </div>
 </div>
 </div>
-<div class="bg-dark">
-<div class="container every-element">
-    <div class="inline">
-  <h1 class="display-4 white-text float-left">Универсальность</h1>
+ </div>
+
+
+
+
+<div id="section1"class="col-12 bg-dark every-element float-right">
+  
+    <div class="row every-element">
+  <h1 class="display-4 white-text float-left col-12">Универсальность</h1>
   </div>
-  <div>
-  <p class="white-text font-weight-light">
+  <div class="row">
+  <p class="white-text font-weight-light col-6">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   </p>
 
 </div>
-
-<div class="row clearfix every-element">
-  <img src="assets/images/review1.png" class="col float-left">
-
-  <img src="assets/images/review2.png" class="col float-right">
+<div class="row">
+  <div class="col-6 scale">
+  <img src="assets/images/review1.png" class="w-100 rounded-lg shadow-lg scale">
 </div>
+<div class="col-6 scale">
+  <img src="assets/images/review2.png" class="w-100 rounded-lg shadow-lg scale">
+</div>
+</div>
+</div> 
 
-</div>
-</div>
-<div class="container every-element">
-  <div class="inline">
-  <h1 class="display-4 float-left">Актуальность</h1>
+
+<div id="section2"class="every-element col-12 float-right">
+  <div class="row every-element">
+  <h1 class="col-12 display-4">Актуальность</h1>
   </div>
   <div class="row">
     <div class="col-6">
-  <p class="font-weight-light">
+    <p class="font-weight-light">
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
   consequat.
   </p>
-  <img src="assets/images/review1.png" class="col center every-element">
+  <div class="col center every-element scale">
+  <img src="assets/images/review1.png" class="w-100 rounded-lg shadow-lg scale">
   </div>
-  <div class="col row">
-    <div class="row clearfix">
-    <div class="every-element">
-    <img src="assets/images/review3.png" class="col-11 float-right">
-    </div>
-    </div>
-    </div>
   </div>
+  <div class="col-6">  <div class="row">
+    <div class="col row clearfix">
+    <div class="every-element col float-right scale">
+    <img src="assets/images/review3.png" class="w-100 rounded-lg shadow-lg scale">
+    </div>
+    </div>
+  </div>  
+  </div>
+  </div>
+  </div>
+
+  
+    <div id="section3" class="col-12 every-element bg-dark float-right">
+  <div class="row every-element">
+    <h1 class="display-4 white-text col-12">Стабильность</h1>
+  </div>
+  <div class="row">
+    <div class="col-6 row clearfix">
+      <div class="every-element col float-left scale">
+      <img src="assets/images/review1.png" class="w-100 rounded-lg shadow-lg scale">
+    </div>
+    </div>
+    <div class="col-6">
+    <p class="font-weight-light white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua.</p> 
+    
+    <div class="every-element col center scale">
+    <img src="assets/images/review3.png" class="w-100 rounded-lg shadow-lg scale">
+    </div>
+    </div>
+</div>
+</div>
+<div class="every-element col-12   float-right" style="margin-top:150px; margin-bottom: 150px;">
+  <div>
+  <p class="display-5 center-title">С Topvacancy Ваши мечты могут воплотиться в явь. Ну так что?</p>
+  <div class="justify-content-center row">
+    <h1>Готовы приступить?</h1>
+  </div>
+  <div class="row every-element">
+    <a href="#main" type="button" class="col-2 btn btn-primary btn-lg btn-block center" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="color: white;">Да</a>
   </div>
 </div>
 </div>
+
 </body>
 </html>

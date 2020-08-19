@@ -1,6 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
+.line{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
 .center-title{
 	margin-right: auto;
 	margin-left: auto;
@@ -12,10 +16,17 @@ html {
 	margin-left: auto;
 	display: block;
 }
+button{
+	padding-left: 2px;
+	padding-right:2px;
+}
 li{
 	font-size: 24px;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+}
+img{
+	vertical-align: none;
 }
 .screen{
   	position: fixed;
@@ -33,8 +44,8 @@ li{
 	margin-right: 1rem;
 }
 .vertical-auto{
-	margin-top: auto;
-	margin-bottom: auto;
+	position: absolute;
+	top: 40%;
 	}
 .white-text{
 	color: white;
@@ -45,3 +56,18 @@ p{
 .inline{
 	display: flex;
 }
+.list{
+	padding-bottom: 24px; 
+	padding-top: 24px;
+	font-size: 20px;
+}
+ .scale {
+    display: inline-block; 
+    overflow: hidden; 
+}
+.scale img {
+	transition: 1s;
+}
+.scale img:hover {
+    transform: scale(1.2);
+   }
