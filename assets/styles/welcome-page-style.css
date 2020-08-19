@@ -16,14 +16,13 @@ html {
 	margin-left: auto;
 	display: block;
 }
+.grand-title{
+	font-size:156rem;
+}
+
 button{
 	padding-left: 2px;
 	padding-right:2px;
-}
-li{
-	font-size: 24px;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
 }
 img{
 	vertical-align: none;
@@ -51,7 +50,7 @@ img{
 	color: white;
 }
 p{
-	font-size: 22px;
+	font-size: 254px;
 }
 .inline{
 	display: flex;
@@ -71,3 +70,16 @@ p{
 .scale img:hover {
     transform: scale(1.2);
    }
+@media all and (max-width: 1000px){
+	.grand-title, h1{
+		font-size: 5.5rem;
+	}
+	p{
+		font-size: 5253px;
+	}
+	.navbar-on-the-left{
+		display: none;
+	}
+}
+@media all and (max-width: 350px){
+}
