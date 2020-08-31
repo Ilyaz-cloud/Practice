@@ -4,12 +4,13 @@
 	<title>Topvacansy | Log in</title>
 </head>
 <body class="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
 	</script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/styles/welcome-page-style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -39,8 +40,8 @@ $(document).ready(function(){
   });
 });
 </script>
-<div class="position-fixed col-2 float-left w-100" style="height: 100%; padding-left: 0px;">
-<nav  class="navbar position-static navbar-light float-right row bg-light w-100" style=" height: 100%; padding-left: 0px;">
+<div class="position-fixed col-0 col-md-1 col-lg-2 float-left w-100" style="height: 100%; padding-left: 0px;">
+<nav  class="navbar position-static navbar-light float-right row bg-light w-100 navbar-on-the-left" style=" height: 100%; padding-left: 0px;">
   <nav class="nav nav-pills flex-column">
     <a class="nav-link list text-secondary" href="#main" style="">Главная</a>
     <a class="nav-link list text-secondary" href="#section1" style="">Почему Topvacansy</a>
@@ -49,46 +50,33 @@ $(document).ready(function(){
       <a class="nav-link ml-3 my-1 list text-secondary" href="#section2" style="">Актуальность</a>
       <a class="nav-link ml-3 my-1 list text-secondary" href="#section3" style="">Стабильность</a>
     </nav>
-    <a class="nav-link list text-secondary" href="#item-3" style="">Item 3</a>
-    <a class="nav-link list text-secondary" href="#" style="">Item 4</a>
+    <a class="nav-link list text-secondary" href="#section4" style="">Заключение</a>
   </nav>
 </nav>
 </div>
-  <div id="main" class="col-10 float-right every-element">
-  <div>
+  <div id="main" class=" col-12 col-lg-10 float-right every-element">
   <div class="every-element">
   <div>
     <div>
       <div class="col-12 every-element">
-    	<h1 class="display-3">
+    	<h1 class="grand-title center-title display-3">
     		TOPVACANCY.COM
-    	</h1></div>
+    	</h1>
+    	<p class="font-weight-light center-title"> Лучший сервис в сфере занятости</p></div>
       <div class="every-element row">
-      <div class="col-6">
-        <ul>
-           <li class="font-weight-light">Качественный сервис</li>
-           <li class="font-weight-light">Отзывчивая техническая поддержка</li>
-           <li class="font-weight-light">Подходящий подбор вакансий</li>
-        </ul>
-         </div>
          
-        <div class="col-6 row">
-          <div class="col-6">
-            <div>
-          <button type="button" class="btn btn-outline-success btn-lg center" style="position: absolute; top:40%">Я ищу работу</button>
+        <div class="col-12 row justify-content-around">
+          <div class="col-6 col-lg-4 row justify-content-center">
+          <button type="button" class="btn btn-outline-success btn-lg text-nowrap button-choice"><span class="button">Я ищу работу</span></button>
           </div>
-          </div>
-          <div class="col-6">
-          <div>
-          <button type="button" class="btn btn-outline-info btn-lg center" style="position: absolute; top:40%;">Я ищу работников</button> 
-          </div>
+          <div class="col-6 col-lg-4 row justify-content-center">
+          <button type="button" class="btn btn-outline-info btn-lg text-nowrap button-choice"><span class="button">Я ищу работников</span></button> 
            </div>
           <div class="collapse center" id="collapseExample" style="padding-top: 20px;">
   <div class="card card-body alert alert-primary">
-    Выберите свое направление
+    Выберите свое направление	
   </div>
 </div>       
-        </div>
         </div>
         </div>
 
@@ -96,7 +84,7 @@ $(document).ready(function(){
 
 
 <div class="every-element">
-<a href="#section1" type="button" class="btn btn-primary btn-lg btn-block center" style="color: white;">Почему Topvacancy?</a>
+<a href="#section1" type="button" class="btn btn-primary btn-lg btn-block center button" style="color: white; width: 75%;">Почему Topvacancy?</a>
 </div>
 </div>
 </div>
@@ -106,35 +94,37 @@ $(document).ready(function(){
 
 
 
-<div id="section1"class="col-12 bg-dark every-element float-right">
+<div id="section1"class=" col-12 col-lg-10  bg-dark every-element float-right">
   
     <div class="row every-element">
-  <h1 class="display-4 white-text float-left col-12">Универсальность</h1>
+  <h1 class="display-4 white-text float-left col-12 title">Универсальность</h1>
   </div>
   <div class="row">
-  <p class="white-text font-weight-light col-6">
+  <div class="col-12">
+  <p class="white-text font-weight-light">
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
   </p>
 
 </div>
-<div class="row">
-  <div class="col-6 scale">
-  <img src="assets/images/review1.png" class="w-100 rounded-lg shadow-lg scale">
+<div class="row justify-content-around">
+  <div class=" col-11 col-md-5 scale center">
+  <img src="assets/images/review1.png" class="line w-100 rounded-lg shadow-lg scale">
 </div>
-<div class="col-6 scale">
-  <img src="assets/images/review2.png" class="w-100 rounded-lg shadow-lg scale">
+<div class=" col-11 col-md-5 scale center">
+  <img src="assets/images/review2.png" class="line w-100 rounded-lg shadow-lg scale">
+</div>
 </div>
 </div>
 </div> 
 
 
-<div id="section2"class="every-element col-12 float-right">
+<div id="section2"class="every-element  col-12 col-lg-10  float-right">
   <div class="row every-element">
-  <h1 class="col-12 display-4">Актуальность</h1>
+  <h1 class="col-12 display-4 title">Актуальность</h1>
   </div>
   <div class="row">
-    <div class="col-6">
+    <div class="col-12 col-md-6">
     <p class="font-weight-light">
   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
   tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -145,9 +135,9 @@ $(document).ready(function(){
   <img src="assets/images/review1.png" class="w-100 rounded-lg shadow-lg scale">
   </div>
   </div>
-  <div class="col-6">  <div class="row">
-    <div class="col row clearfix">
-    <div class="every-element col float-right scale">
+  <div class="col-12 col-md-6">  <div class="row">
+    <div class="col row clearfix center">
+    <div class="every-element col  scale">
     <img src="assets/images/review3.png" class="w-100 rounded-lg shadow-lg scale">
     </div>
     </div>
@@ -157,17 +147,17 @@ $(document).ready(function(){
   </div>
 
   
-    <div id="section3" class="col-12 every-element bg-dark float-right">
+    <div id="section3" class=" col-12 col-lg-10  every-element bg-dark float-right">
   <div class="row every-element">
-    <h1 class="display-4 white-text col-12">Стабильность</h1>
+    <h1 class="display-4 white-text col-12 title">Стабильность</h1>
   </div>
   <div class="row">
-    <div class="col-6 row clearfix">
-      <div class="every-element col float-left scale">
+    <div class=" col-12 col-md-6 row clearfix center">
+      <div class="every-element col scale">
       <img src="assets/images/review1.png" class="w-100 rounded-lg shadow-lg scale">
     </div>
     </div>
-    <div class="col-6">
+    <div class=" col-12 col-md-6">
     <p class="font-weight-light white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.</p> 
     
@@ -177,15 +167,34 @@ $(document).ready(function(){
     </div>
 </div>
 </div>
-<div class="every-element col-12   float-right" style="margin-top:150px; margin-bottom: 150px;">
+<div id="section4" class="every-element  col-12 col-lg-10  float-right" style="margin-top:150px; margin-bottom: 150px;">
   <div>
   <p class="display-5 center-title">С Topvacancy Ваши мечты могут воплотиться в явь. Ну так что?</p>
   <div class="justify-content-center row">
     <h1>Готовы приступить?</h1>
   </div>
   <div class="row every-element">
-    <a href="#main" type="button" class="col-2 btn btn-primary btn-lg btn-block center" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="color: white;">Да</a>
+    <button href="#main" type="button" class="col-2 btn btn-primary btn-lg btn-block center" data-toggle="modal" data-target="#exampleModal"><a style="color: white;">Да</a></button>
+    <div class="modal fade row" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-md col-12">
+    <div class="modal-content">
+      <div class="modal-header" style="border: none;">
+        <h5 class="modal-title center" id="exampleModalLabel">Выберите свое направление</h5>
+      </div>
+      <div class="modal-body" >
+        <button type="button" class="btn btn-outline-success btn-lg float-right" >Я ищу работу</button>
+        <button type="button" class="btn btn-outline-info btn-lg float-left">Я ищу работников</button> 
+      </div>
+      <div class="modal-footer" style="border: none;">
+        <button type="button" class="btn btn-secondary center" data-dismiss="modal">Закрыть</button>
+      </div>
+    </div>
   </div>
+</div>
+  
+  
+  </div>
+
 </div>
 </div>
 

@@ -17,7 +17,7 @@ html {
 	display: block;
 }
 .grand-title{
-	font-size:156rem;
+	font-size:4.5rem;
 }
 
 button{
@@ -50,15 +50,23 @@ img{
 	color: white;
 }
 p{
-	font-size: 254px;
+	font-size: 28px;
 }
 .inline{
 	display: flex;
 }
+.button{
+		font-size: 20px;
+	}
 .list{
 	padding-bottom: 24px; 
 	padding-top: 24px;
 	font-size: 20px;
+}
+.button-choice{
+	position: absolute; 
+	top:35%; 
+	width: 70%;
 }
  .scale {
     display: inline-block; 
@@ -70,16 +78,44 @@ p{
 .scale img:hover {
     transform: scale(1.2);
    }
-@media all and (max-width: 1000px){
+   
+
+   @media all and (max-width: 1250px){
+	.list{
+	padding-bottom: 24px; 
+	padding-top: 24px;
+	font-size: 15px;
+	}
+	
+
+
+
+   @media all and (max-width: 990px){
 	.grand-title, h1{
-		font-size: 5.5rem;
+		font-size: 2.5rem;
 	}
 	p{
-		font-size: 5253px;
+		font-size: 22px;
 	}
 	.navbar-on-the-left{
 		display: none;
 	}
+	.button{
+		font-size: 17px;
+	}
+	.button-choice{
+		position: absolute; 
+		top:35%; 
+		width: 50%;
+	}
+
+
 }
-@media all and (max-width: 350px){
-}
+ 	@media all and (max-width: 550px){
+ 	.title{
+ 		font-size: 45px;
+ 	}
+ 	.button{
+ 		font-size: 8px;
+ 	}	
+ }
