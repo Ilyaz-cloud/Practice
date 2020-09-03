@@ -17,7 +17,7 @@ html {
 	display: block;
 }
 .grand-title{
-	font-size:4.5rem;
+	font-size:3rem;
 }
 
 button{
@@ -68,6 +68,7 @@ p{
 	top:35%; 
 	width: 70%;
 }
+
  .scale {
     display: inline-block; 
     overflow: hidden; 
@@ -92,7 +93,7 @@ p{
 
    @media all and (max-width: 990px){
 	.grand-title, h1{
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 	p, .description{
 		font-size: 22px;
@@ -103,11 +104,7 @@ p{
 	.button{
 		font-size: 17px;
 	}
-	.button-choice{
-		position: absolute; 
-		top:35%; 
-		width: 50%;
-	}
+
 	.title{
 		font-size: 35px;
 	}
@@ -128,7 +125,7 @@ p{
  }
  @media all and (max-width: 570px){
 	.button{
- 		font-size: 12px;
+ 		font-size: 14px;
  	}
  	.title{
  		font-size: 22px;
@@ -149,5 +146,8 @@ p{
   }
   @media all and (max-width: 500px){
   	.button{
- 		font-size: 10px;
- 	}}
+ 		font-size: 12px;
+ 	}
+ 	.grand-title{
+ 		font-size: 1.5rem;
+ 		}}

@@ -65,12 +65,12 @@ $(document).ready(function(){
     	<p class="title font-weight-light center-title"> Лучший сервис в сфере занятости</p></div>
       <div class="every-element row">
          
-        <div class="col-12 row">
+        <div class="float-right col-12 row">
           <div class="col-6 col-lg-5 row justify-content-center">
-          <button type="button" class="btn btn-outline-success btn-lg text-nowrap button-choice"><span class="button">Я ищу работу</span></button>
+          <button type="button" class="btn btn-outline-success btn-lg text-wrap button-choice"><span class="button">Я ищу работу</span></button>
           </div>
           <div class="col-6 col-lg-5 row justify-content-center">
-          <button type="button" class="btn btn-outline-info btn-lg text-nowrap button-choice"><span class="button">Я ищу работников</span></button> 
+          <button type="button" class="btn btn-outline-info btn-lg text-wrap button-choice"><span class="button">Я ищу работников</span></button> 
            </div>
           <div class="collapse center" id="collapseExample" style="padding-top: 20px;">
   <div class="card card-body alert alert-primary">
@@ -174,16 +174,20 @@ $(document).ready(function(){
     <h1 class="grand-title" style="text-align: center;">Готовы приступить?</h1>
   </div>
   <div class="row every-element">
-    <button href="#main" type="button" class="col-11 col-md-6 col-lg-2 btn btn-primary btn-lg btn-block center" data-toggle="modal" data-target="#exampleModal"><a style="color: white;">Да</a></button>
+    <button href="#main" type="button" class="col-9 col-md-6 col-lg-2 btn btn-primary btn-lg btn-block center" data-toggle="modal" data-target="#exampleModal"><a style="color: white;">Да</a></button>
     <div class="modal fade row" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-md col-12">
     <div class="modal-content">
       <div class="modal-header" style="border: none;">
         <h5 class="modal-title center" id="exampleModalLabel">Выберите свое направление</h5>
       </div>
-      <div class="modal-body" >
-        <button type="button" class="btn btn-outline-success btn-lg float-right" >Я ищу работу</button>
-        <button type="button" class="btn btn-outline-info btn-lg float-left">Я ищу работников</button> 
+      <div class="modal-body row" >
+      	<div class="col-6">
+        <button type="button" class="btn btn-outline-success btn-md no-wrap float-ыleft" ><span class="button">Я ищу работу</span></button>
+        </div>
+        <div class="col-6">
+        <button type="button" class="btn btn-outline-info btn-md no-wrap float-ыright"><span class="button">Я ищу работников</span></button> 
+      	</div>
       </div>
       <div class="modal-footer" style="border: none;">
         <button type="button" class="btn btn-secondary center" data-dismiss="modal">Закрыть</button>
